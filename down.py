@@ -2,9 +2,9 @@ import json
 import requests
 
 
-token = "ton token"
+token = "Your token"
 i = 0
-groupeid = input("Rentre l'id du groupe que tu veux down : ") 
+groupeid = input("Group dm ID : ") 
 headers = {
     'authorization': token,
     'content-type': 'application/json',
