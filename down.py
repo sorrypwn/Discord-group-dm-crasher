@@ -1,6 +1,5 @@
 import requests
 
-
 token = "Your token"
 i = 0
 groupeid = input("Group dm ID : ") 
