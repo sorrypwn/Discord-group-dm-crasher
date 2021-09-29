@@ -7,8 +7,8 @@ groupeid = input("Group dm ID : ")
 headers = {
     'authorization': token,
     'content-type': 'application/json',
-
 }
+
 regions = ["japan", "europe"]
 while i <= 2:
     data = {"region": regions[i]}
